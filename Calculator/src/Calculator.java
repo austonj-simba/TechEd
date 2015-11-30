@@ -4,7 +4,7 @@ import java.awt.event.*;
 
 public class Calculator extends JFrame implements ActionListener {
     
-    JPanel[] row = new JPanel[7];
+    JPanel[] row = new JPanel[10];
     JButton[] button = new JButton[24];
     String[] buttonString = {"7", "8", "9", "+", "x!", "C",
                              "4", "5", "6", "-", "x^2", "√",
